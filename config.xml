@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MCUConfig>
+  <GU>
+    
+  </GU>
+  <GC>
+    
+  </GC>
+  <SU>
+    <!-- Testing Server Configuration values -->
+    <sourceDir>C:\Exerve\MultiCompanyUpload\temp</sourceDir>
+    <renameFormat>filename_yyyyMMdd_hhmmss_ext</renameFormat>
+    <upload>
+      <uploadMethod>S3</uploadMethod>
+      <uploadMethodCreds>
+        <accessKey>AKIAIE2OIBC3IHQHY4OQ</accessKey>
+        <secretAccessKey>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</secretAccessKey>
+        <region>us-east-1</region>
+      </uploadMethodCreds>
+      <uploadLocation>assets.itemextend.com/sulky/sync</uploadLocation>
+      <uploadFilenameStrings>
+        <IX_STOCK_SYNC>ixsitems</IX_STOCK_SYNC>
+        <IX_PRODCAT_SYNC>ixspcats</IX_PRODCAT_SYNC>
+        <IX_MKTCAT_SYNC>ixsmcats</IX_MKTCAT_SYNC>
+        <IX_MKTITM_SYNC>ixsmitms</IX_MKTITM_SYNC>
+        <IX_ORPR_SYNC>ixsorprs</IX_ORPR_SYNC>
+        <IX_STOCK_RELATED_SYNC>ixsirels</IX_STOCK_RELATED_SYNC>
+        <IX_STOCK_BOM>ixsiboms</IX_STOCK_BOM>
+      </uploadFilenameStrings>
+    </upload>
+    <!-- Production Server Configuration values
+    <sourceDir>E:\NetApps\Southware\swm\SU\ix</sourceDir>
+    <renameFormat>filename_yyyyMMdd_hhmmss_ext</renameFormat>
+    <upload>
+      <uploadMethod>S3</uploadMethod>
+      <uploadMethodCreds>
+        <accessKey>AKIAIE2OIBC3IHQHY4OQ</accessKey>
+        <secretAccessKey>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</secretAccessKey>
+        <region>us-east-1</region>
+      </uploadMethodCreds>
+      <uploadLocation>assets.itemextend.com/sulky/sync</uploadLocation>
+      <uploadFilenameStrings>
+        <IX_STOCK_SYNC>ixsitems</IX_STOCK_SYNC>
+        <IX_PRODCAT_SYNC>ixspcats</IX_PRODCAT_SYNC>
+        <IX_MKTCAT_SYNC>ixsmcats</IX_MKTCAT_SYNC>
+        <IX_MKTITM_SYNC>ixsmitms</IX_MKTITM_SYNC>
+        <IX_ORPR_SYNC>ixsorprs</IX_ORPR_SYNC>
+        <IX_STOCK_RELATED_SYNC>ixsirels</IX_STOCK_RELATED_SYNC>
+        <IX_STOCK_BOM>ixsiboms</IX_STOCK_BOM>
+      </uploadFilenameStrings>
+    </upload -->
+  </SU>
+  <emailConfig>
+    <!-- Production Server Configuration values
+    <SMTPServer>10.204.0.7</SMTPServer>
+    <SMTPPort>587</SMTPPort>
+    <SMTPUsername></SMTPUsername>
+    <SMTPPassword></SMTPPassword>
+    <EmailFrom>Gunold-Sulky EXMCU Script &lt;csr@gunold.com&gt;</EmailFrom> -->
+
+    <!-- Testing Configuration Values -->
+    <SMTPServer>smtp.comcast.net</SMTPServer>
+    <SMTPPort>587</SMTPPort>
+    <SMTPUsername>campbell8131</SMTPUsername>
+    <SMTPPassword>Whitej44</SMTPPassword>
+    <EmailCC></EmailCC>
+    <EmailFrom>Powershell test &lt;powershelltest@test.com&gt;</EmailFrom>
+  </emailConfig>
+</MCUConfig>
